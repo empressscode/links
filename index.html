@@ -1,94 +1,102 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>Empress' Links</title>
   </head>
   <body>
     <div class="items">
-    <div class="pfp">
-      <img src="Thumbnails/pfp.jpg" alt="Picture of Empress">
-    </div>
-    <div class="name">
-      <h1>Empress Sears<h1>
-    </div>
-    <div class="bio">
-      <p>I'm a software engineer with experience in HTML, CSS, Javascript, Java and more</p>
-    </div>
-    <div>
-      <h4>Connect with me</h4>
-    </div>
-     <div class="socials">
-      <a href="https://www.linkedin.com/in/emse95/">LinkedIn</a>
-      <a href="https://github.com/empressscode">Github</a>
-      <a href="https://www.instagram.com/empresssears/">Instagram</a>
-    </div>
-    <div>
-      <h2>Interesting Github Projects</h2>
-    </div>
-    <div class="links">
-      <img
-          src="https://www.ycombinator.com/assets/ycdc/yc-og-image-0cfa80cac837d64d9b4f0705950000b66906ac032791376bd721f246fafcc7b4.png">
-      <a target="_blank" href="https://github.com/emilwallner/Screenshot-to-code">Screenshot to code</a>
-    </div>
-    <div class="links">
-      <img
-          src="https://www.ycombinator.com/assets/ycdc/yc-og-image-0cfa80cac837d64d9b4f0705950000b66906ac032791376bd721f246fafcc7b4.png">
-      <a target="_blank" href="https://github.com/flowtyone/flowty-realtime-lcm-canvas">Realtime Sketch to AI</a>
-    </div>
-    <div class="links">
-      <img
-          src="https://www.ycombinator.com/assets/ycdc/yc-og-image-0cfa80cac837d64d9b4f0705950000b66906ac032791376bd721f246fafcc7b4.png">
-      <a target="_blank" href="https://github.com/jwasham/coding-interview-university">Study plan to be a software engineer </a>
-    </div>
+      <div class="pfp">
+        <img src="Thumbnails/pfp.jpg" alt="Picture of Empress">
+      </div>
+      <div class="name">
+        <h1>Empress Sears</h1>
+      </div>
+      <div class="bio">
+        <p>I'm a software engineer with experience in HTML, CSS, Javascript, Java and more</p>
+      </div>
+      <div>
+        <h4>Connect with me</h4>
+      </div>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/emse95/">LinkedIn</a>
+        <a href="https://github.com/empressscode">Github</a>
+        <a href="https://www.instagram.com/empresssears/">Instagram</a>
+      </div>
+      <div>
+        <h2>Interesting Github Projects</h2>
+      </div>
+      <div class="links">
+        <img src="Thumbnails/s2c.png" alt="Icon">
+        <a target="_blank" href="https://github.com/emilwallner/Screenshot-to-code">Screenshot to code</a>
+      </div>
+      <div class="links">
+        <img src="Thumbnails/s2p.png" alt="Icon">
+        <a target="_blank" href="https://github.com/flowtyone/flowty-realtime-lcm-canvas">Realtime Sketch to AI</a>
+      </div>
+      <div class="links">
+        <img src="Thumbnails/R.png" alt="Icon">
+        <a target="_blank" href="https://github.com/jwasham/coding-interview-university">Study plan to be a software engineer</a>
+      </div>
     </div>
     <style>
-      body{
-        padding-top:40px;
-        padding-bottom:40px;
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
         background-color: #b8c1ec;
-      }
-      .pfp img{
-        width:75px;
-        height:75px;
-        border-radius:75px ;
-        justify-content: center;
-      }
-     .links img{
-        width:48px;
-        height:48px;
-        border-radius: 48px;
-        object-fit: cover;
-        color: #fffffe;
-        text-decoration: none;
-        justify-content: center;
-     }
-      .name{
-        color:#fffffe;
-        justify-content: center;
-      }
-      .links{
-        background-color: #eebbc3;
-        text-decoration: none;
-      }
-      .links a{
-        color: #d9d4e7;
-        text-decoration: none;
-        flex-grow: 100vh;
-        align-items: center;
-      }
-      .socials a{
-        color: #d9d4e7;
-        text-decoration: none;
-      }
-      .items{
         display: flex;
-        flex-direction: column;
-        gap:30px;
-        max-width:640px;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
       }
-      *{
-        border: thin red solid;
+
+      .pfp img {
+        width: 128px;
+        height: 128px;
+        border-radius: 128%;
+        object-fit: cover;
+      }
+
+      .name, .bio, h4, h2 {
+        color: #fffffe;
+        text-align: center;
+      }
+
+      .socials {
+        display: flex;
+        justify-content: center;
+      }
+
+      .links {
+        background-color: #eebbc3;
+        text-align: center;
+        padding: 5px;
+        border-radius: 8px;
+        margin: 5px;
+      }
+
+      .links img {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .links a {
+        color: #232946;
+        text-decoration: none;
+      }
+
+      .socials a {
+        color: #232946;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+
+      .items {
+        max-width: 640px;
+        text-align: center;
       }
     </style>
   </body>

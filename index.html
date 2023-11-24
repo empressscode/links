@@ -52,6 +52,7 @@
         width:75px;
         height:75px;
         border-radius:75px ;
+        justify-content: center;
       }
      .links img{
         width:48px;
@@ -60,19 +61,21 @@
         object-fit: cover;
         color: #fffffe;
         text-decoration: none;
+        justify-content: center;
      }
       .name{
         color:#fffffe;
+        justify-content: center;
       }
       .links{
         background-color: #eebbc3;
         text-decoration: none;
-        align-items: center;
-
       }
       .links a{
         color: #d9d4e7;
         text-decoration: none;
+        flex-grow: 100vh;
+        align-items: center;
       }
       .socials a{
         color: #d9d4e7;
@@ -83,6 +86,9 @@
         flex-direction: column;
         gap:30px;
         max-width:640px;
+      }
+      *{
+        border: thin red solid;
       }
     </style>
   </body>
